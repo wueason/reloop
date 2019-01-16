@@ -1,8 +1,4 @@
-# reloop
-Yet another multi process worker
-
-## USAGE
-```php
+<?php
 require 'vendor/autoload.php';
 use Reloop\Manager;
 use Reloop\Context;
@@ -18,4 +14,3 @@ $manager = new Manager([
     'processNum'=>2,
 ]);
 $manager->run($job);
-```

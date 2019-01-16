@@ -1,0 +1,15 @@
+{
+    "name": "wueason/reloop",
+    "description": "Yet another multi process worker",
+    "keywords": ["process", "worker"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reloop\\": "src/"
+        }
+    }
+}
